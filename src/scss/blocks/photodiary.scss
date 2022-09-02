@@ -1,6 +1,7 @@
 .photodiary {
   margin-bottom: 130px;
   display: flex;
+  align-items: flex-start;
 
   @media (max-width: 900px) {
     flex-direction: column;

@@ -1,4 +1,6 @@
 .sidebar {
+  position: sticky;
+  top: 10px;
   min-width: 270px;
 
   @media (max-width: 900px) {
