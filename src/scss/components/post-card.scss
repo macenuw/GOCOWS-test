@@ -1,0 +1,37 @@
+.post-card {
+  max-width: 474px;
+  margin: 0 auto;
+
+  &.disable {
+    display: none;
+  }
+
+  &__img-inner {
+    max-width: 474px;
+    width: 100%;
+    height: 316px;
+    margin-bottom: 32px;
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+
+  &__tag {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  &__title {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

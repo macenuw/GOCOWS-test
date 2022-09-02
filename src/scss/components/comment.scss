@@ -1,0 +1,42 @@
+.comment {
+  display: flex;
+  margin-bottom: 50px;
+
+  &__img-inner {
+    min-width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 35px;
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+
+  &__author {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    margin-right: 0;
+    @media (max-width: 480px) {
+      font-size: 12px;
+    }
+  }
+
+  &__reply {
+    background: none;
+    color: #b4ad9e;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 0;
+    padding: 0;
+  }
+}

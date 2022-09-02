@@ -1,0 +1,32 @@
+.promo {
+  background-color: #f5f5f5;
+  padding: 70px 0;
+
+  &__title {
+    margin-bottom: 42px;
+  }
+
+  &__grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 880px) {
+      flex-direction: column;
+    }
+  }
+
+  & .post-card__img-inner {
+    max-width: 275px;
+    height: 192px;
+  }
+
+  .post-card__title {
+    font-size: 20px;
+    margin-bottom: 0;
+
+    @media (max-width: 880px) {
+      margin-bottom: 40px;
+    }
+  }
+}

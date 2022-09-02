@@ -1,0 +1,72 @@
+.sidebar {
+  min-width: 270px;
+
+  @media (max-width: 900px) {
+    padding-top: 30px;
+  }
+
+  &__img-inner {
+    max-width: 270px;
+    width: 100%;
+    margin-bottom: 30px;
+
+    @media (max-width: 900px) {
+      margin: 0 auto 30px;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+
+  &__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+
+    @media (max-width: 900px) {
+      text-align: center;
+    }
+  }
+
+  &__text {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    max-width: 270px;
+
+    @media (max-width: 900px) {
+      max-width: 80%;
+      margin: 0 auto 20px;
+    }
+  }
+
+  .social {
+    margin-bottom: 75px;
+
+    @media (max-width: 900px) {
+      justify-content: center;
+    }
+  }
+
+  .icon {
+    &__facebook {
+      width: 16px;
+      height: 20px;
+      fill: #b4ad9e;
+    }
+
+    &__instagram {
+      width: 20px;
+      height: 20px;
+      fill: #b4ad9e;
+    }
+
+    &__pinterest {
+      width: 20px;
+      height: 20px;
+      fill: #b4ad9e;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.lifestyle {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 130px 60px;
+  margin-bottom: 120px;
+
+  @media (max-width:738px) {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 20px;
+  }
+}

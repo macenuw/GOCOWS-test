@@ -1,0 +1,30 @@
+.social {
+  display: flex;
+  align-items: center;
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+
+  &__link {
+    position: relative;
+    color: #626262;
+
+    &::before {
+      position: absolute;
+      content: "";
+      height: 2px;
+      width: 0%;
+      background-color: #626262;
+      bottom: -5px;
+      left: -5%;
+      transition: .3s;
+    }
+
+    &:hover::before {
+      width: 110%;
+    }
+  }
+}

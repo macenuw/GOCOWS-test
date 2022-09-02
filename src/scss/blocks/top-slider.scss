@@ -1,0 +1,28 @@
+.top-slider {
+  overflow: hidden;
+  margin-bottom: 90px;
+
+  &__item {
+    height: 555px;
+    width: 100%;
+
+    @media (max-width: 992px) {
+      height: 420px;
+    }
+    @media (max-width: 757px) {
+      height: 380px;
+    }
+    @media (max-width: 575px) {
+      height: 320px;
+    }
+    @media (max-width: 420px) {
+      height: 240px;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+}

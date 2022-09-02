@@ -1,0 +1,12 @@
+.photodiary {
+  margin-bottom: 130px;
+  display: flex;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
+
+  @media (max-width: 575px) {
+    margin-bottom: 60px;
+  }
+}

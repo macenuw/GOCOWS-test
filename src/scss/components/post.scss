@@ -1,0 +1,109 @@
+.post {
+
+  &--sidebar {
+    max-width: 100%;
+    width: 100%;
+    padding-left: 80px;
+    margin-right: 45px;
+
+    @media (max-width: 900px) {
+      padding-left: 0px;
+    }
+
+
+    .post__img-inner {
+      height: 495px;
+
+      @media (max-width: 750px) {
+        height: 380px;
+      }
+      @media (max-width: 400px) {
+        height: 320px;
+      }
+    }
+  }
+
+  &__title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: normal;
+
+    @media (max-width: 575px) {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 40px;
+
+    @media (max-width: 575px) {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__img-inner {
+    max-width: 100%;
+    width: 100%;
+    height: 680px;
+    margin-bottom: 65px;
+
+    @media (max-width: 992px) {
+      height: 520px;
+    }
+
+    @media (max-width: 757px) {
+      height: 380px;
+    }
+
+    @media (max-width: 575px) {
+      height: 320px;
+    }
+
+    @media (max-width: 420px) {
+      height: 240px;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+
+  &__quote {
+    font-style: italic;
+    padding: 0 20px;
+    margin-bottom: 30px;
+  }
+
+  &__share {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .social {
+    color: #b4ad9e;
+  }
+
+  .icon {
+    &__facebook {
+      fill: #b4ad9e;
+    }
+
+    &__twitter {
+      fill: #b4ad9e;
+    }
+
+    &__instagram {
+      fill: #b4ad9e;
+    }
+
+    &__pinterest {
+      fill: #b4ad9e;
+    }
+  }
+}

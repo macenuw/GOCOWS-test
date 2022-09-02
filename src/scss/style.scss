@@ -1,0 +1,28 @@
+@import 'global/reset';
+@import 'global/fonts';
+@import 'global/libs';
+@import 'global/vars';
+@import 'global/allsvg';
+@import 'global/global';
+
+
+
+@import 'blocks/header.scss';
+@import 'blocks/top-slider.scss';
+@import 'blocks/photodiary.scss';
+@import 'blocks/lifestyle.scss';
+@import 'blocks/newsletter.scss';
+@import 'blocks/news.scss';
+@import 'blocks/promo.scss';
+@import 'blocks/comments.scss';
+@import 'blocks/sidebar.scss';
+@import 'blocks/footer.scss';
+
+
+
+@import 'components/menu.scss';
+@import 'components/post.scss';
+@import 'components/post-card.scss';
+@import 'components/comment.scss';
+@import 'components/social.scss';
+@import 'components/top.scss';
